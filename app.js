@@ -38,7 +38,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-var port = 7777;
+var port = 7770;
 app.listen(port, () => {
   console.log("Corriendo en " + port);
 });

@@ -1,13 +1,13 @@
 version: '2'
 
 services:
-  web:
+  webBel:
     build: .
     volumes:
       - ./:/app
       - /app/node_modules
     ports:
-      - '7777:7777'
+      - '7770:7770'
     links:
       - mongo
 
